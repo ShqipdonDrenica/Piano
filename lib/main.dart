@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
     return FlatButton(
       height: 100,
       onPressed: () {
-        player.play("note$soundNumber.wav");
+        player.play("note${soundNumber}.wav");
       },
       color: color,
       child: Text('   '),
