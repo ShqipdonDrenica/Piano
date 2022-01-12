@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:audioplayers/audio_cache.dart';
+import 'package:soundpool/soundpool.dart';
 
 void main() {
   runApp(MyApp());
